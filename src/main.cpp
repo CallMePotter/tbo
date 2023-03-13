@@ -65,18 +65,13 @@ int main() {
     // Draw the board with the piece positions
     drawBoard(kingX, kingY, bishopX, bishopY, rookX, rookY);
 
-    // Check for check from the bishop
-    if (isCheckByBishop(kingX, kingY, bishopX, bishopY)) {
+    if (isCheckByBishop && isCheckByRook) {
+        cout << "Check from bishop and rook" << endl;
+    } else if (isCheckByBishop) {
         cout << "Check from bishop" << endl;
-    }
-
-    // Check for check from the rook
-    else if (isCheckByRook(kingX, kingY, rookX, rookY)) {
+    } else if (isCheckByRook) {
         cout << "Check from rook" << endl;
-    }
-
-    // Otherwise, no check
-    else {
+    } else {
         cout << "No check" << endl;
     }
 
