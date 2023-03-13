@@ -1,0 +1,3 @@
+C:/Users/Admin/Projects/tbo/build/debug/CMakeFiles/chess.dir
+C:/Users/Admin/Projects/tbo/build/debug/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Projects/tbo/build/debug/CMakeFiles/rebuild_cache.dir
