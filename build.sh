@@ -1,1 +1,1 @@
-bazel build //main:chess
+bazel build //app:chess
